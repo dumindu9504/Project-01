@@ -1,0 +1,59 @@
+#heading{
+    background-color: black;
+    color: green;
+}
+
+.even{
+    background-color: green;
+    color: white;
+}
+
+#heading2{
+    background-color: aqua;
+    color: black;
+}
+
+.btn-login{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: rgb(14, 14, 120);
+}
+
+.btn-login:active{
+    background-color: rgb(179, 5, 5);
+    border: 1px solid black;
+}
+
+.odd{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    margin: 50px;
+
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/2387877/pexels-photo-2387877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
